@@ -1,0 +1,11 @@
+/Users/mekhijohnson/Downloads/fitness-backend/src/main/java/com/fitness/FitnessBackendApplication.java
+/Users/mekhijohnson/Downloads/fitness-backend/src/main/java/com/fitness/config/SecurityConfig.java
+/Users/mekhijohnson/Downloads/fitness-backend/src/main/java/com/fitness/controller/AuthController.java
+/Users/mekhijohnson/Downloads/fitness-backend/src/main/java/com/fitness/controller/PlanController.java
+/Users/mekhijohnson/Downloads/fitness-backend/src/main/java/com/fitness/controller/SurveyController.java
+/Users/mekhijohnson/Downloads/fitness-backend/src/main/java/com/fitness/model/User.java
+/Users/mekhijohnson/Downloads/fitness-backend/src/main/java/com/fitness/repository/UserRepository.java
+/Users/mekhijohnson/Downloads/fitness-backend/src/main/java/com/fitness/service/PlanService.java
+/Users/mekhijohnson/Downloads/fitness-backend/src/main/java/com/fitness/service/SurveyService.java
+/Users/mekhijohnson/Downloads/fitness-backend/src/main/java/com/fitness/service/WorkoutService.java
+/Users/mekhijohnson/Downloads/fitness-backend/src/main/java/com/fitness/util/WorkoutRecommendations.java
