@@ -1,0 +1,11 @@
+com/fitness/service/PlanService.class
+com/fitness/controller/PlanController.class
+com/fitness/repository/UserRepository.class
+com/fitness/service/SurveyService.class
+com/fitness/controller/AuthController.class
+com/fitness/service/WorkoutService.class
+com/fitness/controller/SurveyController.class
+com/fitness/util/WorkoutRecommendations.class
+com/fitness/FitnessBackendApplication.class
+com/fitness/model/User.class
+com/fitness/config/SecurityConfig.class

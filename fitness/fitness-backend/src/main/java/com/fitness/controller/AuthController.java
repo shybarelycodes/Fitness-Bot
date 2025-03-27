@@ -1,7 +1,7 @@
 package com.fitness.controller;
 
-import model.User;
-import repository.UserRepository;
+import com.fitness.model.User;
+import com.fitness.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("api/auth")
+@RequestMapping("/api/auth")
 public class AuthController {
 
     @Autowired
     private UserRepository userRepository;
-    private BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+    private final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 
     @PostMapping("/register")
     public String register(@RequestBody User user) {
@@ -34,5 +34,10 @@ public class AuthController {
             return "Login successful";
         }
         return "Invalid credentials";
+    }
+
+    @GetMapping("/ping")
+    public String ping() {
+        return "Pong";
     }
 }
